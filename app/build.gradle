@@ -26,5 +26,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-lex:2.3.4@aar'
+    compile 'com.amazonaws:aws-android-sdk-cognitoauth:2.4.4@aar'
     testCompile 'junit:junit:4.12'
 }
